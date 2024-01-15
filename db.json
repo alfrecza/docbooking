@@ -1,0 +1,34 @@
+{
+  "pacientes": [
+    {
+      "id": "ccdd",
+      "nombre": "Adasd",
+      "obraSocial": "asdasd",
+      "email": "alfre.czta@gmail.com",
+      "telefono": "123123",
+      "sintomas": "asdasd"
+    },
+    {
+      "id": "29e9",
+      "nombre": "aaa",
+      "obraSocial": "bbb",
+      "email": "ccc@ccc.com",
+      "telefono": "312312",
+      "sintomas": "ddd"
+    },
+    {
+      "id": "0b12"
+    },
+    {
+      "id": "d92d"
+    },
+    {
+      "id": "4e06",
+      "nombre": "Juan",
+      "obraSocial": "Carlos",
+      "email": "juan@carlos.com",
+      "telefono": "3856274094",
+      "sintomas": "Ultimamente anda con mucho dolor de cabeza y de panza, no puede comer bien por estos mismos sintomas "
+    }
+  ]
+}
