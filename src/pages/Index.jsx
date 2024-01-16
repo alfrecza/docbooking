@@ -3,6 +3,7 @@ import { FaCheckCircle } from "react-icons/fa";
 import imagenRecepcionista from "../assets/receptionist.png"
 import Comentarios from '../components/Comentarios';
 import { Link } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 
 const Index = () => {
   return (
@@ -16,7 +17,7 @@ const Index = () => {
                     <h2 className='text-2xl uppercase text-white font-semibold opacity-80'>Administra y gestiona los turnos de tus pacientes</h2>
                     <div className='mt-12 flex gap-x-8'>
                         <Link to={"/agregar/paciente"} className='bg-indigo-700 hover:bg-indigo-600 p-4 rounded-md text-white uppercase font-semibold'>Agrega un paciente</Link>
-                        <Link to={"/administrar"} className='bg-purple-800 hover:bg-purple-700 p-4 rounded-md text-white uppercase font-semibold'>Ve al panel de administrador</Link>
+                        <Link to={"/administrar/pacientes"} className='bg-purple-800 hover:bg-purple-700 p-4 rounded-md text-white uppercase font-semibold'>Ve al panel de administrador</Link>
                     </div>
                 </div>
                 <img className='w-1/2' src={imagenRecepcionista} alt="imagen receptionista" />

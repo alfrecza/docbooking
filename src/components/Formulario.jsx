@@ -1,7 +1,8 @@
 
 
 
-const Formulario = () => {
+const Formulario = ({paciente}) => {
+
     return (
         <>
             <div className="mb-4 w-2/4">
@@ -15,6 +16,7 @@ const Formulario = () => {
                     className="mt-2 block w-full p-3 bg-gray-50 outline-none"
                     placeholder="Nombre del Paciente"
                     name="nombre"
+                    defaultValue={paciente?.nombre}
                 />
             </div>
             <div className="mb-4 w-2/4">
@@ -26,9 +28,9 @@ const Formulario = () => {
                     id="obraSocial"
                     type="text"
                     className="mt-2 block w-full p-3 bg-gray-50 outline-none"
-                    placeholder="Obra social que posee el cliente"
+                    placeholder="Obra social que posee el paciente"
                     name="obraSocial"
-
+                    defaultValue={paciente?.obraSocial}
                 />
             </div>
 
@@ -43,7 +45,7 @@ const Formulario = () => {
                     className="mt-2 block w-full p-3 bg-gray-50 outline-none"
                     placeholder="Email del Paciente"
                     name="email"
-
+                    defaultValue={paciente?.email}
                 />
             </div>
 
@@ -58,7 +60,7 @@ const Formulario = () => {
                     className="mt-2 block w-full p-3 bg-gray-50 outline-none"
                     placeholder="Teléfono del Paciente"
                     name="telefono"
-
+                    defaultValue={paciente?.telefono}
                 />
             </div>
 
@@ -74,7 +76,7 @@ const Formulario = () => {
                     className="mt-2 block w-full p-3 bg-gray-50 h-40 align-self outline-none"
                     placeholder="Sintomas del paciente"
                     name="sintomas"
-
+                    defaultValue={paciente?.sintomas}
                 />
             </div>
         </>

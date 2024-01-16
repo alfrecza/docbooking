@@ -1,106 +1,12 @@
 {
   "pacientes": [
     {
-      "id": "ccdd",
-      "nombre": "Adasd",
-      "obraSocial": "asdasd",
-      "email": "alfre.czta@gmail.com",
-      "telefono": "123123",
-      "sintomas": "asdasd"
-    },
-    {
-      "id": "29e9",
-      "nombre": "aaa",
-      "obraSocial": "bbb",
-      "email": "ccc@ccc.com",
-      "telefono": "312312",
-      "sintomas": "ddd"
-    },
-    {
-      "id": "0b12"
-    },
-    {
-      "id": "d92d"
-    },
-    {
-      "id": "4e06",
       "nombre": "Juan",
-      "obraSocial": "Carlos",
-      "email": "juan@carlos.com",
-      "telefono": "3856274094",
-      "sintomas": "Ultimamente anda con mucho dolor de cabeza y de panza, no puede comer bien por estos mismos sintomas "
-    },
-    {
-      "id": "99d8",
-      "nombre": "Juan Carlos",
       "obraSocial": "Iosep",
       "email": "juan@juan.com",
       "telefono": "3856274094",
-      "sintomas": "Tengo mucho dolor de cabeza ultimamente y dolor de panza"
-    },
-    {
-      "id": "19ad",
-      "nombre": "Verduras",
-      "obraSocial": "kiosep",
-      "email": "alfre.cztq@gmail;.colm",
-      "telefono": "1313",
-      "sintomas": "me duele la panza"
-    },
-    {
-      "id": "097c",
-      "nombre": "wesd",
-      "obraSocial": "asdasd",
-      "email": "alfre.czta@gmail.com",
-      "telefono": "1321",
-      "sintomas": "asd"
-    },
-    {
-      "id": "cb25",
-      "nombre": "juan",
-      "obraSocial": "iosep",
-      "email": "alfre.czta@gmail.com",
-      "telefono": "123",
-      "sintomas": "asd"
-    },
-    {
-      "id": "eb54",
-      "nombre": "Medico",
-      "obraSocial": "Iosep",
-      "email": "alfre.czta@gmail.com",
-      "telefono": "3856274094",
-      "sintomas": "qsdqd"
-    },
-    {
-      "id": "99ed",
-      "nombre": "Juan Carlos",
-      "obraSocial": "iosep",
-      "email": "alfre.czta@gmail.com",
-      "telefono": "3856274094",
-      "sintomas": "ME DUELE LA PAZA"
-    },
-    {
-      "id": "37a9",
-      "nombre": "Juan Carlos",
-      "obraSocial": "Iosep",
-      "email": "alfre.czta@gmail.com",
-      "telefono": "21312312",
-      "sintomas": "me duele la panza"
-    },
-    {
-      "id": "97e7",
-      "nombre": "Alfredo Chazarreta",
-      "obraSocial": "Iosep",
-      "email": "alfre.czta@gmail.com",
-      "telefono": "3856274094",
-      "sintomas": "Dolor de cabeza y de panza"
-    },
-    {
-      "id": "5380",
-      "nombre": "Juan Carlos",
-      "obraSocial": "Iosep",
-      "email": "alfre.czta@gmail.com",
-      "telefono": "3856274094",
-      "sintomas": "XSDSC"
+      "sintomas": "Mucho dolor de cabeza",
+      "id": "751a"
     }
   ]
 }
