@@ -2,10 +2,10 @@
   "pacientes": [
     {
       "nombre": "Juan",
-      "obraSocial": "Iosep",
-      "email": "juan@juan.com",
+      "obraSocial": "Osped",
+      "email": "juan@gmail.com",
       "telefono": "3856274094",
-      "sintomas": "Mucho dolor de cabeza",
+      "sintomas": "Mucho dolor de cabeza y de panza",
       "id": "751a"
     }
   ]
