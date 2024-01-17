@@ -53,10 +53,10 @@ const  EditarPaciente = () => {
         theme="dark"
         transition: Bounce
       />}      
-      <h2 className='text-center text-2xl font-semibold uppercase text-white mb-10'>Editar paciente</h2>
-       <Form method="post" noValidate className='flex flex-col items-center'>
+      <h2 className='text-center text-2xl font-semibold uppercase text-white mb-10 mt-16 md:mt-0'>Editar paciente</h2>
+       <Form method="post" noValidate className='flex flex-col items-center w-9/12 md:container mx-auto'>
         <Formulario paciente={paciente}/>
-        <input type="submit" className='bg-purple-700 hover:bg-purple-600 text-white p-4 text-lg uppercase font-semibold mt-6 w-1/5 mb-8 cursor-pointer rounded-md' value={"Editar paciente"}/>
+        <input type="submit" className='bg-purple-700 hover:bg-purple-600 text-white p-4 text-lg uppercase font-semibold mt-6 lg:w-1/5 mb-8 cursor-pointer rounded-md' value={"Editar paciente"}/>
       </Form>
     </main>
   )

@@ -38,9 +38,9 @@ const Administrar = () => {
       theme="dark"
       transition: Bounce
       />
-        <h2 className='text-white uppercase font-bold text-center text-3xl opacity-85'>Panel de administrador</h2>
-        {pacientes.length === 0 ? <p className='text-white text-center uppercase font-semibold text-xl mt-8'>Comienza por agregar tu primer paciente y comienza a administrarlos!</p> : ''}
-        <div className="gap-y-5 items-center mt-16 grid grid-cols-2 gap-x-10">
+        <h2 className='text-white uppercase font-bold text-center text-3xl opacity-85 mt-16 md:mt-0'>Panel de administrador</h2>
+        {pacientes.length === 0 ? <p className='text-white text-center uppercase font-semibold text-xl mt-8 w-9/12 mx-auto md:container'>Comienza por agregar tu primer paciente y comienza a administrarlos!</p> : ''}
+        <div className="gap-y-5 items-center mt-16 md:grid md:grid-cols-2 gap-x-10 flex flex-col w-10/12 mx-auto">
             {pacientes.length && pacientes.map(paciente => <Paciente paciente={paciente} key={paciente.id} handleEliminar={handleEliminar}/>)}
         </div>
     </div>

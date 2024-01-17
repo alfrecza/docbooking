@@ -10,7 +10,7 @@ const Paciente = ({paciente, handleEliminar}) => {
   const {nombre, obraSocial, email, telefono, sintomas, id} = paciente
 
   return (
-    <div className='bg-purple-300 bg-opacity-20 text-white pl-8 py-5 w-full border-l-4 border-purple-700'>
+    <div className='bg-purple-300 bg-opacity-20 text-white px-8 py-5 w-full border-l-4 border-purple-700'>
         <p className='font-semibold mb-2 text-lg'>Nombre: <span className='font-normal'>{nombre}</span></p>
         <p className='font-semibold mb-2 text-lg'>Obra Social: <span className='font-normal'>{obraSocial}</span></p>
         <p className='font-semibold mb-2 text-lg'>Email: <span className='font-normal'>{email}</span></p>

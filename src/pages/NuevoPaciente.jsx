@@ -49,9 +49,9 @@ const NuevoPaciente = () => {
       transition: Bounce
       />}      
     {/* {errores && <p className='uppercase text-center text-white bg-red-600 w-2/4 mx-auto py-5 font-bold mb-5'>{errores[0]}</p>} */}
-      <Form method="post" noValidate className='flex flex-col items-center'>
+      <Form method="post" noValidate className='flex flex-col items-center w-10/12 mx-auto md:container'>
         <Formulario/>
-        <input type="submit" className='bg-purple-700 hover:bg-purple-600 text-white p-4 text-lg uppercase font-semibold mt-6 w-1/5 mb-8 cursor-pointer rounded-md' value={"Agregar paciente"}/>
+        <input type="submit" className='bg-purple-700 hover:bg-purple-600 text-white p-4 text-lg uppercase font-semibold mt-6 lg:w-1/5 mb-8 cursor-pointer rounded-md' value={"Agregar paciente"}/>
       </Form>
     </main>
   )

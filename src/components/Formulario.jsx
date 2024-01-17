@@ -5,7 +5,7 @@ const Formulario = ({paciente}) => {
 
     return (
         <>
-            <div className="mb-4 w-2/4">
+            <div className="mb-4 w-full sm:w-3/4 md:w-2/4">
                 <label
                     className="text-white font-semibold text-lg"
                     htmlFor="nombre"
@@ -19,7 +19,7 @@ const Formulario = ({paciente}) => {
                     defaultValue={paciente?.nombre}
                 />
             </div>
-            <div className="mb-4 w-2/4">
+            <div className="mb-4 w-full sm:w-3/4 md:w-2/4">
                 <label
                     className="text-white font-semibold text-lg"
                     htmlFor="obraSocial"
@@ -34,7 +34,7 @@ const Formulario = ({paciente}) => {
                 />
             </div>
 
-            <div className="mb-4 w-2/4">
+            <div className="mb-4 w-full sm:w-3/4 md:w-2/4">
                 <label
                     className="text-white font-semibold text-lg"
                     htmlFor="email"
@@ -49,7 +49,7 @@ const Formulario = ({paciente}) => {
                 />
             </div>
 
-            <div className="mb-4 w-2/4">
+            <div className="mb-4 w-full sm:w-3/4 md:w-2/4">
                 <label
                     className="text-white font-semibold text-lg"
                     htmlFor="telefono"
@@ -64,7 +64,7 @@ const Formulario = ({paciente}) => {
                 />
             </div>
 
-            <div className="mb-4 w-2/4">
+            <div className="mb-4 w-full sm:w-3/4 md:w-2/4">
                 <label
                     className="text-white font-semibold text-lg"
                     htmlFor="sintomas"
